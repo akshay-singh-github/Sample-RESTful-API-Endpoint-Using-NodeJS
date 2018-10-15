@@ -2,6 +2,7 @@
 
     <div class="row">
         <label for="latitude-Number">LATITUDE</label>
+        <div ng-show="model.inValidLatitude" class="alert alert-danger">{{model.inValidLatitude}}</div>
         <input class="form-control"
                ng-model="model.latitudeNumber"
                name="latitude-Number"
@@ -14,6 +15,7 @@
 
     <div class="row">
         <label for="longitude-Number">LONGITUDE</label>
+        <div ng-show="model.inValidLongitude" class="alert alert-danger">{{model.inValidLongitude}}</div>
         <input class="form-control"
                ng-model="model.longitudeNumber"
                name="longitude-Number"
@@ -27,6 +29,7 @@
 
     <div class="row">
         <label for="radius-Number">RADIUS (in metres)</label>
+        <div ng-show="model.inValidRadius" class="alert alert-danger">{{model.inValidRadius}}</div>
         <input class="form-control"
                ng-model="model.radiusNumber"
                name="radius-Number"
