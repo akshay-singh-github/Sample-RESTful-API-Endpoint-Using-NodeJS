@@ -1,0 +1,87 @@
+<div class="container-fluid">
+
+    <div class="row">
+        <label for="latitude-Number">LATITUDE</label>
+        <input class="form-control"
+               ng-model="model.latitudeNumber"
+               name="latitude-Number"
+               id="latitude-Number"
+               placeholder="Enter valid latitude value."
+               type="text"
+               required="">
+    </div>
+
+
+    <div class="row">
+        <label for="longitude-Number">LONGITUDE</label>
+        <input class="form-control"
+               ng-model="model.longitudeNumber"
+               name="longitude-Number"
+               id="longitude-Number"
+               placeholder="Enter valid longitude value."
+               type="text"
+               required="">
+
+    </div>
+
+
+    <div class="row">
+        <label for="radius-Number">RADIUS (in metres)</label>
+        <input class="form-control"
+               ng-model="model.radiusNumber"
+               name="radius-Number"
+               id="radius-Number"
+               placeholder="Enter valid radius value."
+               type="text"
+               required="">
+    </div>
+
+
+    <div class="row">
+        <button class=" form-control btn btn-success"
+                ng-click="model.findSicknessLevel(model.latitudeNumber, model.longitudeNumber, model.radiusNumber)"
+                name="search-button"
+                id="search-button"
+                value="Search"
+                type="button"
+                required="">Search
+        </button>
+    </div>
+
+
+    <div class="col-md-12" ng-if="model.sicknessLevel">
+        <div class="text-center">
+            <div>
+                <h3>Sickness Level:</h3>
+                <h1>{{ model.sicknessLevel }}</h1>
+            </div>
+            <div class="container-fluid">
+                <div class="col-xs-12 col-md-6">
+                    <h3>Sickness Data : </h3>
+                    <table>
+                        <tr ng-repeat="feverData in model.feverishData">
+                            <td>id : {{ feverData[0] }}</td>
+                            <td>Temperature : {{ feverData[1] }}</td>
+                            <td>Latitude : {{ feverData[2] }}</td>
+                            <td>Longitude : {{ feverData[3] }}</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <h3>Total Data with-in Entered Radius : </h3>
+                    <table>
+                        <tr ng-repeat="allData in model.allData">
+                            <td>id : {{ allData[0] }}</td>
+                            <td>Temperature : {{ allData[1] }}</td>
+                            <td>Latitude : {{ allData[2] }}</td>
+                            <td>Longitude : {{ allData[3] }}</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
