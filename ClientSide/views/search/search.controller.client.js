@@ -5,6 +5,7 @@
     function searchController(searchService, $route, $location, $scope) {
         var model = this;
         model.latiLogiValidator = new RegExp("^(\\-?\\d+(\\.\\d+)?)");
+        model.radiusValidator = new RegExp("^(0*[1-9][0-9]*(\\.[0-9]+)?|0+\\.[0-9]*[1-9][0-9]*)$");
 
         model.findSicknessLevel = findSicknessLevel;
 
@@ -31,7 +32,7 @@
                 model.inValidLatitude = "";
                 model.inValidRadius = "";
             }
-            else if (radiusNumber <= 0 || (typeof radiusNumber === "undefined") || (radiusNumber === null)) {
+            else if ( !model.radiusValidator.exec(radiusNumber)) {
                 model.inValidRadius = "Please enter a valid radius value. It should be positive and greater than Zero. Eg : 1000\n";
                 model.inValidLatitude = "";
                 model.inValidLongitude = "";
