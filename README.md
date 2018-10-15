@@ -8,4 +8,5 @@
 1. Enter the cloned code directory (or repository) by typing below command in terminal and pressing Enter.<br/>**_cd Sample-RESTful-API-Endpoint-Using-NodeJS_**
 1. Run the below command in terminal and press Enter to install all the project dependencies.<br/>**_npm install -d_**
 1. Run the below command in terminal and press Enter to start API server.<br/>**_node app.js_**
-1. Open a browser like Google Chrome, Firefox etc. and type below url in the url address bar and press enter.<br/>**_http://localhost:3000/#!/_**
+1. Open a browser like Google Chrome, Firefox etc. and type below url in the url address bar and press Enter.<br/>**_http://localhost:3000/#!/_**
+1. Below UI will appear in the browser.  
