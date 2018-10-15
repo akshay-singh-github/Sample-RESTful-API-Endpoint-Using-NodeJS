@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89054335-f8cf-4a13-8e1a-17f995894f0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerSide/Test/apiTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/Test/apiTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerSide/app_server.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app_server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/apiTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/Test/apiTest.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,38 +73,65 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="4" />
+          <entry key="js" value="8" />
           <entry key="json" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="4" />
+          <entry key="JavaScript" value="8" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="309" />
+          <entry key="js" value="774" />
           <entry key="json" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="28" />
-          <entry key="JavaScript" value="309" />
+          <entry key="JavaScript" value="774" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServerSide/Services/common.service.server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="67" column="26" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/apiTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            <state relative-caret-position="283">
+              <caret line="57" column="9" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientSide/views/search/search.controller.client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientSide/services/search.service.client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -128,6 +150,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServerSide/app_server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -242,6 +273,41 @@
             <path>
               <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientSide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientSide" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientSide" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientSide" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServerSide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServerSide" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample-RESTful-API-Endpoint-Using-NodeJS" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -307,12 +373,12 @@
       <workItem from="1539527797320" duration="4350000" />
       <workItem from="1539534564813" duration="23030000" />
       <workItem from="1539576864843" duration="2984000" />
-      <workItem from="1539587110000" duration="6915000" />
+      <workItem from="1539587110000" duration="11668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94630000" />
+    <option name="totallyTimeSpent" value="99383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,13 +396,13 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18229854" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32152975" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32152975" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.22237961" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.22237961" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -406,24 +472,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientSide/views/search/search.controller.client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClientSide/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientSide/services/search.service.client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -435,17 +487,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ServerSide/app_server.js">
+    <entry file="file://$PROJECT_DIR$/ClientSide/views/search/search.controller.client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        <state relative-caret-position="278">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ServerSide/Services/common.service.server.js">
+    <entry file="file://$PROJECT_DIR$/ClientSide/services/search.service.client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-578">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="41" />
+        <state relative-caret-position="289">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -463,10 +515,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ServerSide/app_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServerSide/Services/common.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test/apiTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        <state relative-caret-position="283">
+          <caret line="57" column="9" selection-end-line="74" />
         </state>
       </provider>
     </entry>
