@@ -6,5 +6,5 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/ClientSide"));
 
 require("./ServerSide/app_server")(app);
-
+module.exports=app;
 app.listen(3000);
