@@ -3,5 +3,5 @@ module.exports = function (app) {
     mongoose.Promise = require('q').Promise;
 
     require("./Services/common.service.server.js")(app);
-    
+    require("./Test/apiTest")(app);
 };
