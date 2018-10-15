@@ -21,7 +21,7 @@
 1. Run the below command in terminal and press Enter to start API server.<br/>**_node app.js_**
 1. Open a browser like Google Chrome, Firefox etc. and type below url in the url address bar and press Enter.<br/>**_http://localhost:3000/#!/_**
 1. Below UI will appear in the browser.<br/> ![Alt text](./Images/HomeScreen.jpg?raw=true "Home Screen")
-1. Please enter the valid Latitude, Longitude and Radius to see the results.<br/> ![Alt text](./Images/HomeScreenResults.jpg?raw=true "Results")
+1. Please enter the valid Latitude, Longitude and Radius to see the results.<br/> ![Alt text](./Images/HomeScreenResults.JPG?raw=true "Results")
 
 ## Steps to Run the Unit Tests:
 
@@ -29,7 +29,7 @@
 1. Open a new Terminal and Enter the cloned code directory (Similar to step 5 mentioned above).
 1. After entering the cloned repository i.e. "Sample-RESTful-API-Endpoint-Using-NodeJS", run the below command.<br />**_npm test_**
 1. All the Unit tests for testing the RESTful API Endpoint are run and results are displayed in terminal.
-Please see the output in the below image for reference.<br/> ![Alt text](./Images/UnitTestsResults.jpg?raw=true "Unit Test Results")
+Please see the output in the below image for reference.<br/> ![Alt text](./Images/UnitTestsResults.JPG?raw=true "Unit Test Results")
 
 ## Error Handling in UI:
 
