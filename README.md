@@ -29,7 +29,7 @@
 1. Open a new Terminal and Enter the cloned code directory (Similar to step 5 mentioned above).
 1. After entering the cloned repository i.e. "Sample-RESTful-API-Endpoint-Using-NodeJS", run the below command.<br />**_npm test_**
 1. All the Unit tests for testing the RESTful API Endpoint are run and results are displayed in terminal.
-Please see the output in the below image for reference.![Alt text](./Images/UnitTestsResults.jpg?raw=true "Unit Test Results")
+Please see the output in the below image for reference.<br/> ![Alt text](./Images/UnitTestsResults.jpg?raw=true "Unit Test Results")
 
 ## Error Handling in UI:
 
