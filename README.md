@@ -21,7 +21,7 @@
 1. Run the below command in terminal and press Enter to start API server.<br/>**_node app.js_**
 1. Open a browser like Google Chrome, Firefox etc. and type below url in the url address bar and press Enter.<br/>**_http://localhost:3000/#!/_**
 1. Below UI will appear in the browser.<br/> ![Alt text](./Images/HomeScreen.jpg?raw=true "Home Screen")
-1. Please enter the valid Latitude, Longitude and Radius to see the results.<br/> ![Alt text](./Images/HomeScreenResults.JPG?raw=true "Results")
+1. Please enter the valid Latitude, Longitude and Radius, Click on "Search Button" to see the results.<br/> ![Alt text](./Images/HomeScreenResults.JPG?raw=true "Results")
 
 ## Steps to Run the Unit Tests:
 
